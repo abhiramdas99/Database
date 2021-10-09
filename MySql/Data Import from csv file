@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE 'C:/mysql_import/2021_22/[DB_NAME]/gmail_data_attempt_01.csv' 
+INTO TABLE [table_name] 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
